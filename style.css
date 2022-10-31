@@ -4,6 +4,7 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
+
 .moreDetails  
 {
     width: 500px;
@@ -11,10 +12,12 @@ body {
     display: block;
     text-align: right;
 }
+
 .moreDetails  img 
 {
     width: 100%;
 }
+
 .moreDetails .moreInfo
 {
     font-family: fantasy, cursive;
@@ -22,11 +25,13 @@ body {
 
 @media (max-width:768px) 
 {
+
 .moreDetails  
 { 
     text-align: center;
 }
 }
+
 .mainContent 
 {
     display: block;
@@ -39,6 +44,7 @@ body {
     display: inline-block;
     flex-grow: 1
 }
+
 .taskRowWrapper 
 {
     display: flex;
@@ -60,10 +66,12 @@ button
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
+
 button:hover 
 {
     color: #3a3A3a;
 }
+
 /* Heading */
 .testLine
 {
@@ -75,6 +83,7 @@ button:hover
     margin: 0;
     text-transform: uppercase;
 }
+
 input[type="text"]
 {
     margin: 0;
@@ -89,6 +98,7 @@ input[type="text"]
     color: #888;
     width: 226px;
 }
+
 input[type="text"]:focus 
 {
     color: #333;
@@ -125,6 +135,7 @@ input[type="checkbox"]
 {
     margin: 0 10px;
 }
+
 .task 
 {
     padding-left: 10px;
@@ -136,12 +147,14 @@ li >    input[type="text"]
 {
     width: 226px
 }
+
 button.delete img 
 {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
+
 button.delete img:hover 
 {
     transform: rotateZ(0);
