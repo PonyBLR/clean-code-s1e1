@@ -13,7 +13,7 @@ body {
 .moreDetails  img {
     width: 100%;
 }
-.moreDetails  .more_inf {
+.moreDetails .moreInf {
     font-family: fantasy, cursive;
 }
 
@@ -21,7 +21,7 @@ body {
 .moreDetails  { text-align: center;
 }
 }
-.centeredMainPageElement {
+.mainContent {
     display: block;
     width: 500px;
     margin: 0 auto 0;
