@@ -110,7 +110,8 @@ input[type="text"]:focus
     display: block;
     margin: 0 0 20px;
 }
-#newTask input
+#newTask
+ input
 {
     width: 318px;
 }
@@ -161,25 +162,30 @@ button.delete img:hover
 }
 
 /* Completed */
-ul#completedTasks label 
+ul#completedTasks 
+label 
 {
     text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
-ul li input[type="text"] 
+ul
+li
+ input[type="text"] 
 {
     display: none;
 }
 
-editMode input[type="text"]
+editMode
+ input[type="text"]
 {
     display: inline-block;
     width: 224px
 }
 
-.editMode label
+.editMode 
+label
 {
     display: none;
 }
