@@ -177,7 +177,7 @@ li
     display: none;
 }
 
-editMode
+.editMode
  input[type="text"]
 {
     display: inline-block;
